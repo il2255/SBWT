@@ -163,7 +163,7 @@ I will show the example run with the given the refMrnaSMALL.fa
 1. Clean the reference sequence
   * >python cleanSeq.py -i refMrnaSMALL.fa
 2. Use the cleaned reference sequence to generate random query sequences
-  * >python randomQuery.py -i Cleaned_refMrnaSMALL.
+  * >python randomQuery.py -i Cleaned_refMrnaSMALL.fa
 3. Use the mutated random sequence to run the regular **bwa** algorithm
   * >python rbwt.py -r Cleaned_refMrnaSMALL.fa -q Random_Mutated_Cleaned_refMrnaSMALL.fa
 4. Use the mutated random sequence to run the second codon position **bwa** algorithm
