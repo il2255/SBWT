@@ -16,6 +16,7 @@ The algorithm basically uses the second codon position only to perform the Burro
 * bwa
   * Burrows Wheeler Alignment program in C 
   * Python program needs the bwa binary to be placed in same directory to work properly. 
+  * Included bwa was compiled in MAC OS-X, try to download the source and compile for corresponding machine if the included binary source does not work.
   * http://bio-bwa.sourceforge.net/
 
 ##Data Used
